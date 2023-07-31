@@ -52,10 +52,12 @@ body{
 
 #text1 #text1Btn {
     background-color: #3882F6;
-    border-radius: 10%;
-    padding: 5px;
+    border-radius: 15%;
+    color: white;
     width: 150px;
-    color: #F9FAF8;
+    height : 50px;
+    font-weight: bold;
+    font-size: 20px;
     margin-left: 60px;
 }
 
@@ -66,6 +68,9 @@ body{
     margin: 30px;
     color: white;
     background-color: gray;
+}
+#holderText {
+    margin-top: 20%;
 }
 
 #infoSection {
@@ -123,6 +128,52 @@ body{
 #quoteAuthor {
     margin-left: 55%;
     font-weight: bold;
+}
+
+#productDiv {
+    height: 200px;
+    border: 100px solid white;
+    background-color: #3882F6;
+    border-radius: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap : 700px;
+}
+
+#ptext {
+    color : white;
+    font-size: 15px;
+}
+#ptext em {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+#ptextBtn {
+    background-color: #3882F6;
+    border: 2px solid;
+    border-radius: 15%;
+    border-color: white;
+    color: white;
+    width: 150px;
+    height : 50px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#footer {
+    background-color: #1F2937;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#copyright {
+    color:#E5E7EB;
 }
 
 
